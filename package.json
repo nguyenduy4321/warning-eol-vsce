@@ -1,0 +1,50 @@
+{
+	"name": "warning-eol",
+	"displayName": "Warning EOL",
+	"description": "Displays newline characters in your code and warns you if inconsistent EOL styles are detected.",
+	"version": "0.0.1",
+	"publisher": "nguyenduy4321",
+	"repository": {
+		"url": "https://github.com/nguyenduy4321/warning-eol-vsce"
+	},
+	"license": "MIT",
+	"engines": {
+		"vscode": "^1.75.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"onStartupFinished",
+		"onDidOpenTextDocument",
+		"onDidChangeTextDocument"
+	],
+	"main": "./out/extension",
+	"devDependencies": {
+	"vsce": "^1.36.2"
+	},
+	"contributes": {
+		"configuration": [
+			{
+				"type": "object",
+				"title": "warning-eol Configuration",
+				"properties": {
+					"warning-eol.colorDefaultEOL": {
+						"type": [
+							"string",
+							"null"
+						],
+						"default": "#BFBFBF80"
+					},
+					"warning-eol.colorInconsitentEOL": {
+						"type": [
+							"string",
+							"null"
+						],
+						"default": "#FF000080"
+					}
+				}
+			}
+		]
+	}
+}
