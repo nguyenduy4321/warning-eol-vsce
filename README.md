@@ -2,6 +2,8 @@
 
 Displays end-of-line (EOL) characters in your code and warns you if inconsistent EOL styles (LF, CRLF, CR) are detected.
 
+![preview](preview.png)
+
 ## Features
 
 - Show EOL characters at the end of each line:  
