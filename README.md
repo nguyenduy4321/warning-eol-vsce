@@ -1,8 +1,8 @@
-# ⚠️ Warning EOL
+# [Warning EOL](https://marketplace.visualstudio.com/items?itemName=nguyenduy4321.warning-eol)
 
 Displays end-of-line (EOL) characters in your code and warns you if inconsistent EOL styles (LF, CRLF, CR) are detected.
 
-![preview](preview.png)
+![preview](https://raw.githubusercontent.com/nguyenduy4321/warning-eol-vsce/main/preview.png)
 
 ## Features
 

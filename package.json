@@ -1,8 +1,9 @@
 {
 	"name": "warning-eol",
 	"displayName": "Warning EOL",
+	"icon": "icon.png", 
 	"description": "Displays newline characters in your code and warns you if inconsistent EOL styles are detected.",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"publisher": "nguyenduy4321",
 	"repository": {
 		"url": "https://github.com/nguyenduy4321/warning-eol-vsce"
